@@ -1,6 +1,6 @@
 const fs = require('fs/promises');
 const crypto = require('crypto');
-const formidable = require('formidable');
+const { formidable } = require('formidable');
 const { requireAdmin } = require('../lib/auth');
 const { put, latestManifest, saveManifest, deletePaths } = require('../lib/storage');
 const { extractClientName } = require('../lib/csv');
