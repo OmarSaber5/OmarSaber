@@ -1,0 +1,10 @@
+{
+  "name": "deif-feed-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Private feed-trading dashboard for Vercel",
+  "dependencies": {
+    "@vercel/blob": "^2.3.0",
+    "formidable": "^3.5.2"
+  }
+}
